@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+ 
+    <script src="https://kit.fontawesome.com/6669872e60.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lumanosimo&family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    <title>Portfolio | Arpit Kumar</title>
+</head>
+
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 style="font-family: 'Roboto Slab', serif;">Portfolio Website</h2>
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p><b>Be Quant  !</b></p>
+                <h1>Hi, I'm <span>Arpit</span><br> Kumar from Lucknow,<br> Uttar Pradesh</h1>
+            </div>
+
+        </div>
+       
+    </div>
+<!-- >>>>>>>>>>>>>>>>>>>>>>>about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Snapchat-957380397.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p style="text-align: justify;"> 
+                    <br>Hello ,<br><br>
+                        My name is Arpit Kumar. I am second year undergraduate student of the Department of Chemical Engineering at Indian Institute of Technology, Kharagpur. I am from Lucknow, Uttar Pradesh. 
+                        <p><br>In the realm of academia, I am a diligent scholar, but my true ardor lies in the captivating world of coding. With a seasoned proficiency in CSS, HTML, and the bedrock of JavaScript, I orchestrate websites that are nothing short of enthralling. Simultaneously, I embark on a relentless journey to master the intricacies of C++ and the artistry of Data Structures and Algorithms, fueling my aspiration to ascend as a programming virtuoso.</p>
+
+                        <p><br>Yet, beyond the confines of books and code, my spirit finds its zenith in the harmonious realm of music. I hold a profound reverence for melodies that stir the soul, cherishing every moment as I immerse myself in their symphonic embrace. Furthermore, I am an impassioned enthusiast of both Cricket and Chess, drawn to the electrifying battles of intellect and strategy that these games entail. Additionally, I cultivate the serene skill of tuning the flute, finding solace and inspiration in its mellifluous tones.
+                        </p>
+                        <p><br>In essence, I am a multifaceted individual—a relentless scholar, a coding virtuoso, a connoisseur of the sonorous arts, and a sports aficionado. Each pursuit I undertake is an offering of my heart and soul, an unceasing exploration of the kaleidoscope of wonders that life has to proffer.
+                        </p>
+                    </p>
+
+                    <!-- Alloting the Tabs  to .js -->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link skills" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links experiences" onclick="opentab('experiences')">Experinces</p>
+                        <p class="tab-links education" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- Skill Set tab -->
+                    <div class="tab-contents active-tab" id=skills>
+                        <ul><li><Span id="Skillset">Frontened Developer</Span></li>
+                            <li>Desigining Website Interfaces</li>
+                            <li>Html, CSS, JavaScript</li>
+                            <li>Data Structures and Algorithms</li>
+                            <li>Python, C and C++</li>
+                            <li><Span id="Skillset">Learning for Quantitative Analyst</Span></li>
+                            <li>Basic Knowledge of Finance Sector</li></ul>
+                    </div>
+
+                    <div class="tab-contents" id=experiences>
+                        <ul><li><Span><b>2022----</b></Span>Associate Member at Technology Envirnment Society, IIT Kharagpur</li></ul>
+                        <ul><li><Span><b>2022----</b></Span>Executive Member at Civil Services Club, IIT Kharagpur</li></ul>
+                        <ul><li><Span><b>2022----</b></Span>Associate Member at  Branding and Relations Cell, IIT Kharagpur</li></ul>
+                        <ul><li><Span><b>2022----</b></Span> Associate and Content Team Member at Civil Services Club, IIT Kharagpur</li></ul>
+                            
+                    </div>
+                    <div class="tab-contents"id=education>
+                        <ul>
+                            <li><Span>2022-2026</Span></li>
+                            <li><br>Pursuing Dual Degree (B.Tech + M.Tech) in Department of Chemical Engineering at IIT Kharagpur, West Bengal</li>
+                            <li><Span>2020-2022</Span></li>
+                            <li><br>Pursuing Intemediate at Sri Sai Inter College, Barabanki, Uttar Pradesh</li>
+                            <li><Span>2018-2020</Span></li>
+                            <li><br>Pursuing High School at Sri Sai Inter College, Barabanki, Uttar Pradesh</li>
+                        </ul>
+                            
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!------portfolio---- -->
+
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="Work-list">
+                <div class="work">
+                    <img src="/3-2-web-development-png-hd.png" alt="image of work 1">
+
+                    <div class="layer">
+                        <h3>Work 1</h3>
+                        <p>This webpage will basically show the different committee of Global Model.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+           
+            
+                <div class="work">
+                    <img src="/1-2-web-development-picture-thumb.png" alt="image work 2">
+
+                    <div class="layer">
+                        <h3>Work 2</h3>
+                        <p>This webpage is basically gives information about diffenent fields</p>
+                        <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+           
+            
+                <div class="work">
+                    <img src="/7-2-web-development-png-pic.png" alt="image of work 3">
+                    <div class="layer">
+                        <h3>Work 3</h3>
+                        <p>This webpage will display about various communities of category 3.</p>
+                        <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+           
+        </div>
+    </div>
+    </div>
+<!-- 
+    ------contact -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>kumararpit17773@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone-volume"></i>9506035861</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/arpit_kumar_shivam"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100086028961832"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/arpitkumar2004"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name Please" required>
+                        <input type="email" name="Email" placeholder="Your Email Please" required>
+                        <input placeholder="Write your Message" name="Message" class="Message" required></textarea>
+                          <button type="submit" class="btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copywrite">
+            <p> Copywrite &copy; Portfolio | Arpit Kumar</p>
+        </div>
+    </div>
+</body>
+</html>
